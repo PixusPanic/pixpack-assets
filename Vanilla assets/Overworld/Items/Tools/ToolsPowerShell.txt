@@ -1,0 +1,5 @@
+Dir | Rename-Item -NewName {$_.name -replace "1","sword"}
+Dir | Rename-Item -NewName {$_.name -replace "2","pickaxe"}
+Dir | Rename-Item -NewName {$_.name -replace "3","axe"}
+Dir | Rename-Item -NewName {$_.name -replace "4","shovel"}
+Dir | Rename-Item -NewName {$_.name -replace "5","hoe"}
